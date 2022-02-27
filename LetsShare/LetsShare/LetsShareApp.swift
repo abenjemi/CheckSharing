@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct CheckSharingApp: App {
+struct LetsShare: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

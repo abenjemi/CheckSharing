@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		67E8EBE127CB0BEA00CFE8B0 /* CheckSharingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8EBE027CB0BEA00CFE8B0 /* CheckSharingApp.swift */; };
+		67E8EBE127CB0BEA00CFE8B0 /* LetsShareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8EBE027CB0BEA00CFE8B0 /* LetsShareApp.swift */; };
 		67E8EBE327CB0BEA00CFE8B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8EBE227CB0BEA00CFE8B0 /* ContentView.swift */; };
 		67E8EBE527CB0BEC00CFE8B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E8EBE427CB0BEC00CFE8B0 /* Assets.xcassets */; };
 		67E8EBE827CB0BEC00CFE8B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E8EBE727CB0BEC00CFE8B0 /* Preview Assets.xcassets */; };
+		67E8EBEF27CB2BD100CFE8B0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8EBEE27CB2BD100CFE8B0 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		67E8EBDD27CB0BEA00CFE8B0 /* CheckSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		67E8EBE027CB0BEA00CFE8B0 /* CheckSharingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSharingApp.swift; sourceTree = "<group>"; };
+		67E8EBDD27CB0BEA00CFE8B0 /* LetsShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E8EBE027CB0BEA00CFE8B0 /* LetsShareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsShareApp.swift; sourceTree = "<group>"; };
 		67E8EBE227CB0BEA00CFE8B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		67E8EBE427CB0BEC00CFE8B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67E8EBE727CB0BEC00CFE8B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67E8EBEE27CB2BD100CFE8B0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +37,7 @@
 		67E8EBD427CB0BEA00CFE8B0 = {
 			isa = PBXGroup;
 			children = (
-				67E8EBDF27CB0BEA00CFE8B0 /* CheckSharing */,
+				67E8EBDF27CB0BEA00CFE8B0 /* LetsShare */,
 				67E8EBDE27CB0BEA00CFE8B0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +45,21 @@
 		67E8EBDE27CB0BEA00CFE8B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				67E8EBDD27CB0BEA00CFE8B0 /* CheckSharing.app */,
+				67E8EBDD27CB0BEA00CFE8B0 /* LetsShare.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		67E8EBDF27CB0BEA00CFE8B0 /* CheckSharing */ = {
+		67E8EBDF27CB0BEA00CFE8B0 /* LetsShare */ = {
 			isa = PBXGroup;
 			children = (
-				67E8EBE027CB0BEA00CFE8B0 /* CheckSharingApp.swift */,
+				67E8EBE027CB0BEA00CFE8B0 /* LetsShareApp.swift */,
 				67E8EBE227CB0BEA00CFE8B0 /* ContentView.swift */,
 				67E8EBE427CB0BEC00CFE8B0 /* Assets.xcassets */,
 				67E8EBE627CB0BEC00CFE8B0 /* Preview Content */,
+				67E8EBEE27CB2BD100CFE8B0 /* MainView.swift */,
 			);
-			path = CheckSharing;
+			path = LetsShare;
 			sourceTree = "<group>";
 		};
 		67E8EBE627CB0BEC00CFE8B0 /* Preview Content */ = {
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		67E8EBDC27CB0BEA00CFE8B0 /* CheckSharing */ = {
+		67E8EBDC27CB0BEA00CFE8B0 /* LetsShare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67E8EBEB27CB0BEC00CFE8B0 /* Build configuration list for PBXNativeTarget "CheckSharing" */;
+			buildConfigurationList = 67E8EBEB27CB0BEC00CFE8B0 /* Build configuration list for PBXNativeTarget "LetsShare" */;
 			buildPhases = (
 				67E8EBD927CB0BEA00CFE8B0 /* Sources */,
 				67E8EBDA27CB0BEA00CFE8B0 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = CheckSharing;
+			name = LetsShare;
 			productName = CheckSharing;
-			productReference = 67E8EBDD27CB0BEA00CFE8B0 /* CheckSharing.app */;
+			productReference = 67E8EBDD27CB0BEA00CFE8B0 /* LetsShare.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 67E8EBD827CB0BEA00CFE8B0 /* Build configuration list for PBXProject "CheckSharing" */;
+			buildConfigurationList = 67E8EBD827CB0BEA00CFE8B0 /* Build configuration list for PBXProject "LetsShare" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				67E8EBDC27CB0BEA00CFE8B0 /* CheckSharing */,
+				67E8EBDC27CB0BEA00CFE8B0 /* LetsShare */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				67E8EBE327CB0BEA00CFE8B0 /* ContentView.swift in Sources */,
-				67E8EBE127CB0BEA00CFE8B0 /* CheckSharingApp.swift in Sources */,
+				67E8EBEF27CB2BD100CFE8B0 /* MainView.swift in Sources */,
+				67E8EBE127CB0BEA00CFE8B0 /* LetsShareApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +272,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CheckSharing/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LetsShare/Preview Content\"";
 				DEVELOPMENT_TEAM = RK3TZUDBYD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -297,7 +301,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CheckSharing/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LetsShare/Preview Content\"";
 				DEVELOPMENT_TEAM = RK3TZUDBYD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -322,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		67E8EBD827CB0BEA00CFE8B0 /* Build configuration list for PBXProject "CheckSharing" */ = {
+		67E8EBD827CB0BEA00CFE8B0 /* Build configuration list for PBXProject "LetsShare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67E8EBE927CB0BEC00CFE8B0 /* Debug */,
@@ -331,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67E8EBEB27CB0BEC00CFE8B0 /* Build configuration list for PBXNativeTarget "CheckSharing" */ = {
+		67E8EBEB27CB0BEC00CFE8B0 /* Build configuration list for PBXNativeTarget "LetsShare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67E8EBEC27CB0BEC00CFE8B0 /* Debug */,
